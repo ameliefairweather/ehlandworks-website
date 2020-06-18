@@ -70,4 +70,13 @@ margin:0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
+img{
+  max-width:300px;
+  border-radius: 999px;
+  transition: transform .2s ease;
+}
+img:hover {
+  transform: scale(1.125);
+}
+  
   
